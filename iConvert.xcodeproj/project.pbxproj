@@ -16,7 +16,6 @@
 		0AEBC7122D734CA500FE6870 /* jpgtopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBC70F2D734CA500FE6870 /* jpgtopng.swift */; };
 		0AEBC7132D734CA500FE6870 /* pngtojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBC7102D734CA500FE6870 /* pngtojpg.swift */; };
 		14F2977DEEB3326F0B636863 /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377739314CE073B728DB420 /* webptojpg.swift */; };
-		19DDFE6E2C06CFD3A6049AA2 /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4AC20483ECE41530A868EB /* webptojpg.swift */; };
 		28486D9827DAD12700FDC8AA /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28486D9727DAD12700FDC8AA /* MainWindow.swift */; };
 		28486D9E27DAE16700FDC8AA /* WindowMovingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28486D9D27DAE16700FDC8AA /* WindowMovingImageView.swift */; };
 		28A558A627C6F7E40073C3DC /* URL+XATTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A558A527C6F7E40073C3DC /* URL+XATTR.swift */; };
@@ -28,7 +27,6 @@
 		28FDF72C279E1D6F00573C23 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF72B279E1D6F00573C23 /* FinderSync.swift */; };
 		28FDF731279E1D6F00573C23 /* iConvert Finder Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 28FDF729279E1D6F00573C23 /* iConvert Finder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		630826FF2AF81CA9000203D6 /* Welcome.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 630826FE2AF81CA9000203D6 /* Welcome.mp4 */; };
-		797F3EA5AFC8EB3F756E77CD /* webptopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EDF1DCDE804E3CD31E7B0 /* webptopng.swift */; };
 		B915ED334DBD00608233AD6E /* webptopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E4A2A78808F168B645440 /* webptopng.swift */; };
 		D0A03457AD9A9FF7485DA1AA /* heictowebp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1CEF2F1B0AFB5E581EA84 /* heictowebp.swift */; };
 /* End PBXBuildFile section */
@@ -219,7 +217,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					28FDF712279E1D4800573C23 = {
 						CreatedOnToolsVersion = 15.0.0;
@@ -296,8 +294,6 @@
 				28A558A627C6F7E40073C3DC /* URL+XATTR.swift in Sources */,
 				28A558A827C70C3B0073C3DC /* Color.swift in Sources */,
 				14F2977DEEB3326F0B636863 /* webptojpg.swift in Sources */,
-				797F3EA5AFC8EB3F756E77CD /* webptopng.swift in Sources */,
-				19DDFE6E2C06CFD3A6049AA2 /* webptojpg.swift in Sources */,
 				B915ED334DBD00608233AD6E /* webptopng.swift in Sources */,
 				D0A03457AD9A9FF7485DA1AA /* heictowebp.swift in Sources */,
 			);
@@ -511,7 +507,7 @@
 				INFOPLIST_FILE = "iConvert Finder Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "iConvert Finder Extension";
 				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Judit Karamazov\nAll rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 UNTITLED APPS e.U.\nAll rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -540,7 +536,7 @@
 				INFOPLIST_FILE = "iConvert Finder Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "iConvert Finder Extension";
 				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Judit Karamazov\nAll rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 UNTITLED APPS e.U.\nAll rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
