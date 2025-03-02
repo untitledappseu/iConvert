@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0280FB088A085AD984F2C943 /* heictowebp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42929E4B084D0B0F9D0C14B /* heictowebp.swift */; };
 		0AAE3D472D735B0D0071F4E6 /* heictojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE3D452D735B0D0071F4E6 /* heictojpg.swift */; };
 		0AAE3D482D735B0D0071F4E6 /* heictopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE3D462D735B0D0071F4E6 /* heictopng.swift */; };
 		0AAE3D4A2D735B160071F4E6 /* jpgtowebp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE3D492D735B160071F4E6 /* jpgtowebp.swift */; };
@@ -15,7 +16,15 @@
 		0AC70BE02D738CC900CEAE1B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC70BDF2D738CC900CEAE1B /* main.swift */; };
 		0AEBC7122D734CA500FE6870 /* jpgtopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBC70F2D734CA500FE6870 /* jpgtopng.swift */; };
 		0AEBC7132D734CA500FE6870 /* pngtojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBC7102D734CA500FE6870 /* pngtojpg.swift */; };
+		0B587EB8E655D389D26A7A90 /* mp4tomov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD815625AB83FCBD2997A6 /* mp4tomov.swift */; };
+		1246FED8E3B694FB245E0336 /* heictowebp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738C3F6BBF5E24F077FCCD7 /* heictowebp.swift */; };
+		136A7B4CFD110233E19039E0 /* mp4tomov.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB8AEF896920436470C1282 /* mp4tomov.swift */; };
 		14F2977DEEB3326F0B636863 /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377739314CE073B728DB420 /* webptojpg.swift */; };
+		19898953972E1F1319977A21 /* mp4towebm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5340ECC19AFDB1CA4AC4043 /* mp4towebm.swift */; };
+		19B7ECA01160DE52CA477DAD /* webptopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22497BF099B2F4BAB169C6E2 /* webptopng.swift */; };
+		1D51278B30A0FEFEB71B3269 /* avitomp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FA0174422C211A08EFD1C /* avitomp4.swift */; };
+		270A80FDE63F35449CC6E243 /* jpgtoheic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490D162A99FE54491FCAE5B /* jpgtoheic.swift */; };
+		27F6CA4DD31A0EF307C4A195 /* avitomp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F30F4E50DC1943EB8B997D3 /* avitomp4.swift */; };
 		28486D9827DAD12700FDC8AA /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28486D9727DAD12700FDC8AA /* MainWindow.swift */; };
 		28486D9E27DAE16700FDC8AA /* WindowMovingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28486D9D27DAE16700FDC8AA /* WindowMovingImageView.swift */; };
 		28B87FC027DAEE5B00A1A4E7 /* VideoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B87FBF27DAEE5B00A1A4E7 /* VideoContainerView.swift */; };
@@ -24,9 +33,49 @@
 		28FDF71B279E1D4900573C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FDF71A279E1D4900573C23 /* Assets.xcassets */; };
 		28FDF72C279E1D6F00573C23 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF72B279E1D6F00573C23 /* FinderSync.swift */; };
 		28FDF731279E1D6F00573C23 /* iConvert Finder Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 28FDF729279E1D6F00573C23 /* iConvert Finder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		29349DC66C962ADB1776C9F2 /* jpgtoheic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05AB08E02C3B88ECC40282 /* jpgtoheic.swift */; };
+		2F8BE859B1EC776E23590D24 /* movtomp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648DE28326AF6D73475DD90A /* movtomp4.swift */; };
+		30D6F8DAC17542F77B30645B /* wavtomp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557D447490511EAF8EDE6C5 /* wavtomp3.swift */; };
+		3985C12626DB046B84BF708B /* mp4tomov.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A6B9511906817E64AB364C /* mp4tomov.swift */; };
+		3CA12061BCEB0A75C18C68B1 /* mp4togif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978471030FFD3F4EED942428 /* mp4togif.swift */; };
+		3D910889DF5D43EBE7696CE3 /* mp3towav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E77B4AAAEAF2FA90DF700 /* mp3towav.swift */; };
+		4B2D373D9EB03256C83F3717 /* pngtoheic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D484DA3F9C53EF05AE4BB44 /* pngtoheic.swift */; };
+		4DEF078261A10D296C4B2B9F /* mp4tomov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BEF20B2BBB2DA2EEA2690A /* mp4tomov.swift */; };
+		4F37ED9E016DB1CDEA38EC66 /* wavtoflac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C621256E32227341A877703 /* wavtoflac.swift */; };
+		4FEACEE46FDC309C9D372CDD /* avitomp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F06A59E1A1FE8DF2A13950F /* avitomp4.swift */; };
+		561807195896766B454E1763 /* webptopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0313792C9BE32BC9D6B7E9A9 /* webptopng.swift */; };
+		62E9037FEDD9F08F13F7CE13 /* mp4togif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BBDA162DF2B11988E4F48 /* mp4togif.swift */; };
 		630826FF2AF81CA9000203D6 /* Welcome.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 630826FE2AF81CA9000203D6 /* Welcome.mp4 */; };
+		649F59693EF2BA15BE284962 /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58A1D022C073D79BA93E70B /* webptojpg.swift */; };
+		6714B82E6EE7A6C5A2567A42 /* webptopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14229B315DAFADA3019FCD78 /* webptopng.swift */; };
+		678A595089033E5A394155C8 /* mp4togif.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89847B5F3F58437FC77044 /* mp4togif.swift */; };
+		68235FEDB2460747FA82C7BD /* mp3tom4a.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E5236363FB76849AB73BEE /* mp3tom4a.swift */; };
+		6FD296A77613F9CCD431CE8F /* movtomp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D086A840CDDD7C4A0BD51E7D /* movtomp4.swift */; };
+		73C5FAEB7F51DAF1ACDCF92E /* flactowav.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74B059F2095189F54CA0F11 /* flactowav.swift */; };
+		756809BCA07C2C3745277687 /* heictowebp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2222B92158D19B3373CE6 /* heictowebp.swift */; };
+		7C2638EB20D82D7FECA69E47 /* mp4togif.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BD2586991CE6006E742ED /* mp4togif.swift */; };
+		7FDA793C8284180D573B5DE7 /* mp4towebm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4070A56D3E4A9DF0D385486 /* mp4towebm.swift */; };
+		8088B82060A70A86A74F7773 /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553986835AF45A1596CB817 /* webptojpg.swift */; };
+		812DEFDC82263FCFE4BADEFE /* mp4togif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2DE8153ED909095CAEAC6 /* mp4togif.swift */; };
+		8FCA74B33A5AE51C4A0375CE /* webptopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933DF78D194915AC2F6D12F2 /* webptopng.swift */; };
+		937B6566A2C6F173653074B6 /* m4atomp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E9AC635FE0A8B8FBC9E41 /* m4atomp3.swift */; };
+		941B6A5BF27F3538B3CF8DEB /* pngtoheic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C3DAD8106C8C5396CC360 /* pngtoheic.swift */; };
+		959181067AE1E71A48B608C5 /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B7F2BB6E37ACA6D2A87272 /* webptojpg.swift */; };
+		9A51BB2C92334CD17841E79A /* mp4togif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471A2650B6CF0A1FD4B896F /* mp4togif.swift */; };
+		9B70E21D090BB943F7EECAA8 /* webptopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EACACFA8541482D29CCB80C /* webptopng.swift */; };
+		A8D56592D9563BAD4AA7DCFF /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775CDE899B404B4CA7EAF11 /* webptojpg.swift */; };
+		AA47773A0AB0811692E7FAF4 /* mp4towebm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAFCFBA5F2EE1FFBE11F7 /* mp4towebm.swift */; };
 		B915ED334DBD00608233AD6E /* webptopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E4A2A78808F168B645440 /* webptopng.swift */; };
+		B92DC035DDEB96FC5B8E3DEE /* heictowebp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FBEEAB624C129AEB33588 /* heictowebp.swift */; };
+		BC1BF4EA162DBD226145BCC1 /* mp4tomov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343578D5C2427EB267CF19A7 /* mp4tomov.swift */; };
+		C630B33E4343B20EBB551ACB /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF64B85ED287D65C717ED39 /* webptojpg.swift */; };
+		CAE8B30C85AA9A43BFCECEB0 /* movtomp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0568293A3682536A541037 /* movtomp4.swift */; };
+		CB502EBAE2B735E6FE25F907 /* webptopng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D2A96A94AFA636DFB09E0 /* webptopng.swift */; };
 		D0A03457AD9A9FF7485DA1AA /* heictowebp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1CEF2F1B0AFB5E581EA84 /* heictowebp.swift */; };
+		E80DB2CF2FD3095DE7C90586 /* mp4tomov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B571A02A985C3BBD5FF62E /* mp4tomov.swift */; };
+		F5272E8CB0C954F33E267FE6 /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD5EFC3F2DFE6C6A1F6C72 /* webptojpg.swift */; };
+		F7061C5E80B2A4B3E37C360E /* heictowebp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE526A7AC15E0715C71CDB /* heictowebp.swift */; };
+		FFD3B76AD81F7EA6697F4804 /* heictowebp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBDABFABA46EC7FDAFB85DA /* heictowebp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +103,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02B571A02A985C3BBD5FF62E /* mp4tomov.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4tomov.swift; sourceTree = "<group>"; };
+		0313792C9BE32BC9D6B7E9A9 /* webptopng.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptopng.swift; sourceTree = "<group>"; };
 		0AAE3D452D735B0D0071F4E6 /* heictojpg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heictojpg.swift; sourceTree = "<group>"; };
 		0AAE3D462D735B0D0071F4E6 /* heictopng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heictopng.swift; sourceTree = "<group>"; };
 		0AAE3D492D735B160071F4E6 /* jpgtowebp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jpgtowebp.swift; sourceTree = "<group>"; };
@@ -62,6 +113,9 @@
 		0AC70BDF2D738CC900CEAE1B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0AEBC70F2D734CA500FE6870 /* jpgtopng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jpgtopng.swift; sourceTree = "<group>"; };
 		0AEBC7102D734CA500FE6870 /* pngtojpg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pngtojpg.swift; sourceTree = "<group>"; };
+		14229B315DAFADA3019FCD78 /* webptopng.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptopng.swift; sourceTree = "<group>"; };
+		1D484DA3F9C53EF05AE4BB44 /* pngtoheic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = pngtoheic.swift; sourceTree = "<group>"; };
+		22497BF099B2F4BAB169C6E2 /* webptopng.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptopng.swift; sourceTree = "<group>"; };
 		28486D9727DAD12700FDC8AA /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
 		28486D9D27DAE16700FDC8AA /* WindowMovingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowMovingImageView.swift; sourceTree = "<group>"; };
 		28B87FBF27DAEE5B00A1A4E7 /* VideoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContainerView.swift; sourceTree = "<group>"; };
@@ -74,12 +128,56 @@
 		28FDF72B279E1D6F00573C23 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
 		28FDF72D279E1D6F00573C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28FDF72E279E1D6F00573C23 /* iConvert Finder Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iConvert Finder Extension.entitlements"; sourceTree = "<group>"; };
+		2A3D2A96A94AFA636DFB09E0 /* webptopng.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptopng.swift; sourceTree = "<group>"; };
+		2C621256E32227341A877703 /* wavtoflac.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = wavtoflac.swift; sourceTree = "<group>"; };
+		343578D5C2427EB267CF19A7 /* mp4tomov.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4tomov.swift; sourceTree = "<group>"; };
+		35C2DE8153ED909095CAEAC6 /* mp4togif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4togif.swift; sourceTree = "<group>"; };
+		36BEF20B2BBB2DA2EEA2690A /* mp4tomov.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4tomov.swift; sourceTree = "<group>"; };
+		3E0568293A3682536A541037 /* movtomp4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = movtomp4.swift; sourceTree = "<group>"; };
 		420E4A2A78808F168B645440 /* webptopng.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptopng.swift; sourceTree = "<group>"; };
+		4B7E9AC635FE0A8B8FBC9E41 /* m4atomp3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = m4atomp3.swift; sourceTree = "<group>"; };
+		4F30F4E50DC1943EB8B997D3 /* avitomp4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = avitomp4.swift; sourceTree = "<group>"; };
+		564E77B4AAAEAF2FA90DF700 /* mp3towav.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp3towav.swift; sourceTree = "<group>"; };
+		5AE2222B92158D19B3373CE6 /* heictowebp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = heictowebp.swift; sourceTree = "<group>"; };
+		5DBD5EFC3F2DFE6C6A1F6C72 /* webptojpg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptojpg.swift; sourceTree = "<group>"; };
 		630826FE2AF81CA9000203D6 /* Welcome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Welcome.mp4; sourceTree = "<group>"; };
+		6471A2650B6CF0A1FD4B896F /* mp4togif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4togif.swift; sourceTree = "<group>"; };
+		648DE28326AF6D73475DD90A /* movtomp4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = movtomp4.swift; sourceTree = "<group>"; };
+		6490D162A99FE54491FCAE5B /* jpgtoheic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = jpgtoheic.swift; sourceTree = "<group>"; };
+		6775CDE899B404B4CA7EAF11 /* webptojpg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptojpg.swift; sourceTree = "<group>"; };
 		6A1EDF1DCDE804E3CD31E7B0 /* webptopng.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptopng.swift; sourceTree = "<group>"; };
+		6DF64B85ED287D65C717ED39 /* webptojpg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptojpg.swift; sourceTree = "<group>"; };
 		6F4AC20483ECE41530A868EB /* webptojpg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptojpg.swift; sourceTree = "<group>"; };
+		716FA0174422C211A08EFD1C /* avitomp4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = avitomp4.swift; sourceTree = "<group>"; };
+		78BAAFCFBA5F2EE1FFBE11F7 /* mp4towebm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4towebm.swift; sourceTree = "<group>"; };
+		78CD815625AB83FCBD2997A6 /* mp4tomov.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4tomov.swift; sourceTree = "<group>"; };
+		7E4BBDA162DF2B11988E4F48 /* mp4togif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4togif.swift; sourceTree = "<group>"; };
+		7EACACFA8541482D29CCB80C /* webptopng.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptopng.swift; sourceTree = "<group>"; };
 		8377739314CE073B728DB420 /* webptojpg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptojpg.swift; sourceTree = "<group>"; };
+		8F06A59E1A1FE8DF2A13950F /* avitomp4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = avitomp4.swift; sourceTree = "<group>"; };
+		933DF78D194915AC2F6D12F2 /* webptopng.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptopng.swift; sourceTree = "<group>"; };
+		978471030FFD3F4EED942428 /* mp4togif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4togif.swift; sourceTree = "<group>"; };
+		A5340ECC19AFDB1CA4AC4043 /* mp4towebm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4towebm.swift; sourceTree = "<group>"; };
+		A738C3F6BBF5E24F077FCCD7 /* heictowebp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = heictowebp.swift; sourceTree = "<group>"; };
+		A8B7F2BB6E37ACA6D2A87272 /* webptojpg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptojpg.swift; sourceTree = "<group>"; };
+		AD6BD2586991CE6006E742ED /* mp4togif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4togif.swift; sourceTree = "<group>"; };
+		B0AE526A7AC15E0715C71CDB /* heictowebp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = heictowebp.swift; sourceTree = "<group>"; };
 		B5C1CEF2F1B0AFB5E581EA84 /* heictowebp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = heictowebp.swift; sourceTree = "<group>"; };
+		B74B059F2095189F54CA0F11 /* flactowav.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = flactowav.swift; sourceTree = "<group>"; };
+		BC5FBEEAB624C129AEB33588 /* heictowebp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = heictowebp.swift; sourceTree = "<group>"; };
+		C4070A56D3E4A9DF0D385486 /* mp4towebm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4towebm.swift; sourceTree = "<group>"; };
+		CBBDABFABA46EC7FDAFB85DA /* heictowebp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = heictowebp.swift; sourceTree = "<group>"; };
+		CDB8AEF896920436470C1282 /* mp4tomov.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4tomov.swift; sourceTree = "<group>"; };
+		D086A840CDDD7C4A0BD51E7D /* movtomp4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = movtomp4.swift; sourceTree = "<group>"; };
+		D5A6B9511906817E64AB364C /* mp4tomov.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4tomov.swift; sourceTree = "<group>"; };
+		DD05AB08E02C3B88ECC40282 /* jpgtoheic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = jpgtoheic.swift; sourceTree = "<group>"; };
+		E3E5236363FB76849AB73BEE /* mp3tom4a.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp3tom4a.swift; sourceTree = "<group>"; };
+		E553986835AF45A1596CB817 /* webptojpg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptojpg.swift; sourceTree = "<group>"; };
+		EA89847B5F3F58437FC77044 /* mp4togif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = mp4togif.swift; sourceTree = "<group>"; };
+		EB0C3DAD8106C8C5396CC360 /* pngtoheic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = pngtoheic.swift; sourceTree = "<group>"; };
+		F42929E4B084D0B0F9D0C14B /* heictowebp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = heictowebp.swift; sourceTree = "<group>"; };
+		F557D447490511EAF8EDE6C5 /* wavtomp3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = wavtomp3.swift; sourceTree = "<group>"; };
+		F58A1D022C073D79BA93E70B /* webptojpg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = webptojpg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +212,55 @@
 				6F4AC20483ECE41530A868EB /* webptojpg.swift */,
 				420E4A2A78808F168B645440 /* webptopng.swift */,
 				B5C1CEF2F1B0AFB5E581EA84 /* heictowebp.swift */,
+				E553986835AF45A1596CB817 /* webptojpg.swift */,
+				22497BF099B2F4BAB169C6E2 /* webptopng.swift */,
+				A738C3F6BBF5E24F077FCCD7 /* heictowebp.swift */,
+				CDB8AEF896920436470C1282 /* mp4tomov.swift */,
+				7E4BBDA162DF2B11988E4F48 /* mp4togif.swift */,
+				F58A1D022C073D79BA93E70B /* webptojpg.swift */,
+				7EACACFA8541482D29CCB80C /* webptopng.swift */,
+				CBBDABFABA46EC7FDAFB85DA /* heictowebp.swift */,
+				36BEF20B2BBB2DA2EEA2690A /* mp4tomov.swift */,
+				EA89847B5F3F58437FC77044 /* mp4togif.swift */,
+				6775CDE899B404B4CA7EAF11 /* webptojpg.swift */,
+				2A3D2A96A94AFA636DFB09E0 /* webptopng.swift */,
+				BC5FBEEAB624C129AEB33588 /* heictowebp.swift */,
+				78CD815625AB83FCBD2997A6 /* mp4tomov.swift */,
+				978471030FFD3F4EED942428 /* mp4togif.swift */,
+				A8B7F2BB6E37ACA6D2A87272 /* webptojpg.swift */,
+				14229B315DAFADA3019FCD78 /* webptopng.swift */,
+				F42929E4B084D0B0F9D0C14B /* heictowebp.swift */,
+				D5A6B9511906817E64AB364C /* mp4tomov.swift */,
+				6471A2650B6CF0A1FD4B896F /* mp4togif.swift */,
+				D086A840CDDD7C4A0BD51E7D /* movtomp4.swift */,
+				4F30F4E50DC1943EB8B997D3 /* avitomp4.swift */,
+				C4070A56D3E4A9DF0D385486 /* mp4towebm.swift */,
+				6DF64B85ED287D65C717ED39 /* webptojpg.swift */,
+				0313792C9BE32BC9D6B7E9A9 /* webptopng.swift */,
+				B0AE526A7AC15E0715C71CDB /* heictowebp.swift */,
+				02B571A02A985C3BBD5FF62E /* mp4tomov.swift */,
+				35C2DE8153ED909095CAEAC6 /* mp4togif.swift */,
+				648DE28326AF6D73475DD90A /* movtomp4.swift */,
+				8F06A59E1A1FE8DF2A13950F /* avitomp4.swift */,
+				A5340ECC19AFDB1CA4AC4043 /* mp4towebm.swift */,
+				EB0C3DAD8106C8C5396CC360 /* pngtoheic.swift */,
+				DD05AB08E02C3B88ECC40282 /* jpgtoheic.swift */,
+				5DBD5EFC3F2DFE6C6A1F6C72 /* webptojpg.swift */,
+				933DF78D194915AC2F6D12F2 /* webptopng.swift */,
+				5AE2222B92158D19B3373CE6 /* heictowebp.swift */,
+				343578D5C2427EB267CF19A7 /* mp4tomov.swift */,
+				AD6BD2586991CE6006E742ED /* mp4togif.swift */,
+				3E0568293A3682536A541037 /* movtomp4.swift */,
+				716FA0174422C211A08EFD1C /* avitomp4.swift */,
+				78BAAFCFBA5F2EE1FFBE11F7 /* mp4towebm.swift */,
+				1D484DA3F9C53EF05AE4BB44 /* pngtoheic.swift */,
+				6490D162A99FE54491FCAE5B /* jpgtoheic.swift */,
+				564E77B4AAAEAF2FA90DF700 /* mp3towav.swift */,
+				F557D447490511EAF8EDE6C5 /* wavtomp3.swift */,
+				4B7E9AC635FE0A8B8FBC9E41 /* m4atomp3.swift */,
+				E3E5236363FB76849AB73BEE /* mp3tom4a.swift */,
+				2C621256E32227341A877703 /* wavtoflac.swift */,
+				B74B059F2095189F54CA0F11 /* flactowav.swift */,
 			);
 			path = Converters;
 			sourceTree = "<group>";
@@ -288,6 +435,55 @@
 				14F2977DEEB3326F0B636863 /* webptojpg.swift in Sources */,
 				B915ED334DBD00608233AD6E /* webptopng.swift in Sources */,
 				D0A03457AD9A9FF7485DA1AA /* heictowebp.swift in Sources */,
+				8088B82060A70A86A74F7773 /* webptojpg.swift in Sources */,
+				19B7ECA01160DE52CA477DAD /* webptopng.swift in Sources */,
+				1246FED8E3B694FB245E0336 /* heictowebp.swift in Sources */,
+				136A7B4CFD110233E19039E0 /* mp4tomov.swift in Sources */,
+				62E9037FEDD9F08F13F7CE13 /* mp4togif.swift in Sources */,
+				649F59693EF2BA15BE284962 /* webptojpg.swift in Sources */,
+				9B70E21D090BB943F7EECAA8 /* webptopng.swift in Sources */,
+				FFD3B76AD81F7EA6697F4804 /* heictowebp.swift in Sources */,
+				4DEF078261A10D296C4B2B9F /* mp4tomov.swift in Sources */,
+				678A595089033E5A394155C8 /* mp4togif.swift in Sources */,
+				A8D56592D9563BAD4AA7DCFF /* webptojpg.swift in Sources */,
+				CB502EBAE2B735E6FE25F907 /* webptopng.swift in Sources */,
+				B92DC035DDEB96FC5B8E3DEE /* heictowebp.swift in Sources */,
+				0B587EB8E655D389D26A7A90 /* mp4tomov.swift in Sources */,
+				3CA12061BCEB0A75C18C68B1 /* mp4togif.swift in Sources */,
+				959181067AE1E71A48B608C5 /* webptojpg.swift in Sources */,
+				6714B82E6EE7A6C5A2567A42 /* webptopng.swift in Sources */,
+				0280FB088A085AD984F2C943 /* heictowebp.swift in Sources */,
+				3985C12626DB046B84BF708B /* mp4tomov.swift in Sources */,
+				9A51BB2C92334CD17841E79A /* mp4togif.swift in Sources */,
+				6FD296A77613F9CCD431CE8F /* movtomp4.swift in Sources */,
+				27F6CA4DD31A0EF307C4A195 /* avitomp4.swift in Sources */,
+				7FDA793C8284180D573B5DE7 /* mp4towebm.swift in Sources */,
+				C630B33E4343B20EBB551ACB /* webptojpg.swift in Sources */,
+				561807195896766B454E1763 /* webptopng.swift in Sources */,
+				F7061C5E80B2A4B3E37C360E /* heictowebp.swift in Sources */,
+				E80DB2CF2FD3095DE7C90586 /* mp4tomov.swift in Sources */,
+				812DEFDC82263FCFE4BADEFE /* mp4togif.swift in Sources */,
+				2F8BE859B1EC776E23590D24 /* movtomp4.swift in Sources */,
+				4FEACEE46FDC309C9D372CDD /* avitomp4.swift in Sources */,
+				19898953972E1F1319977A21 /* mp4towebm.swift in Sources */,
+				941B6A5BF27F3538B3CF8DEB /* pngtoheic.swift in Sources */,
+				29349DC66C962ADB1776C9F2 /* jpgtoheic.swift in Sources */,
+				F5272E8CB0C954F33E267FE6 /* webptojpg.swift in Sources */,
+				8FCA74B33A5AE51C4A0375CE /* webptopng.swift in Sources */,
+				756809BCA07C2C3745277687 /* heictowebp.swift in Sources */,
+				BC1BF4EA162DBD226145BCC1 /* mp4tomov.swift in Sources */,
+				7C2638EB20D82D7FECA69E47 /* mp4togif.swift in Sources */,
+				CAE8B30C85AA9A43BFCECEB0 /* movtomp4.swift in Sources */,
+				1D51278B30A0FEFEB71B3269 /* avitomp4.swift in Sources */,
+				AA47773A0AB0811692E7FAF4 /* mp4towebm.swift in Sources */,
+				4B2D373D9EB03256C83F3717 /* pngtoheic.swift in Sources */,
+				270A80FDE63F35449CC6E243 /* jpgtoheic.swift in Sources */,
+				3D910889DF5D43EBE7696CE3 /* mp3towav.swift in Sources */,
+				30D6F8DAC17542F77B30645B /* wavtomp3.swift in Sources */,
+				937B6566A2C6F173653074B6 /* m4atomp3.swift in Sources */,
+				68235FEDB2460747FA82C7BD /* mp3tom4a.swift in Sources */,
+				4F37ED9E016DB1CDEA38EC66 /* wavtoflac.swift in Sources */,
+				73C5FAEB7F51DAF1ACDCF92E /* flactowav.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
