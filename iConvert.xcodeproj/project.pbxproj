@@ -18,8 +18,6 @@
 		14F2977DEEB3326F0B636863 /* webptojpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377739314CE073B728DB420 /* webptojpg.swift */; };
 		28486D9827DAD12700FDC8AA /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28486D9727DAD12700FDC8AA /* MainWindow.swift */; };
 		28486D9E27DAE16700FDC8AA /* WindowMovingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28486D9D27DAE16700FDC8AA /* WindowMovingImageView.swift */; };
-		28A558A627C6F7E40073C3DC /* URL+XATTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A558A527C6F7E40073C3DC /* URL+XATTR.swift */; };
-		28A558A827C70C3B0073C3DC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A558A727C70C3B0073C3DC /* Color.swift */; };
 		28B87FC027DAEE5B00A1A4E7 /* VideoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B87FBF27DAEE5B00A1A4E7 /* VideoContainerView.swift */; };
 		28FDF717279E1D4800573C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF716279E1D4800573C23 /* AppDelegate.swift */; };
 		28FDF719279E1D4800573C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF718279E1D4800573C23 /* ViewController.swift */; };
@@ -37,7 +35,7 @@
 			containerPortal = 28FDF70B279E1D4800573C23 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 28FDF728279E1D6F00573C23;
-			remoteInfo = "ChromatOS Finder Extension";
+			remoteInfo = "iConvert Finder Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -66,8 +64,6 @@
 		0AEBC7102D734CA500FE6870 /* pngtojpg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pngtojpg.swift; sourceTree = "<group>"; };
 		28486D9727DAD12700FDC8AA /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
 		28486D9D27DAE16700FDC8AA /* WindowMovingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowMovingImageView.swift; sourceTree = "<group>"; };
-		28A558A527C6F7E40073C3DC /* URL+XATTR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+XATTR.swift"; sourceTree = "<group>"; };
-		28A558A727C70C3B0073C3DC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		28B87FBF27DAEE5B00A1A4E7 /* VideoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContainerView.swift; sourceTree = "<group>"; };
 		28FDF713279E1D4800573C23 /* iConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FDF716279E1D4800573C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,8 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				28FDF72B279E1D6F00573C23 /* FinderSync.swift */,
-				28A558A727C70C3B0073C3DC /* Color.swift */,
-				28A558A527C6F7E40073C3DC /* URL+XATTR.swift */,
 				28FDF72D279E1D6F00573C23 /* Info.plist */,
 				28FDF72E279E1D6F00573C23 /* iConvert Finder Extension.entitlements */,
 				0AEBC7112D734CA500FE6870 /* Converters */,
@@ -188,7 +182,7 @@
 				28FDF730279E1D6F00573C23 /* PBXTargetDependency */,
 			);
 			name = iConvert;
-			productName = ChromatOS;
+			productName = iConvert;
 			productReference = 28FDF713279E1D4800573C23 /* iConvert.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -205,7 +199,7 @@
 			dependencies = (
 			);
 			name = "iConvert Finder Extension";
-			productName = "ChromatOS Finder Extension";
+			productName = "iConvert Finder Extension";
 			productReference = 28FDF729279E1D6F00573C23 /* iConvert Finder Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
@@ -291,8 +285,6 @@
 				0AEBC7132D734CA500FE6870 /* pngtojpg.swift in Sources */,
 				0AAE3D4A2D735B160071F4E6 /* jpgtowebp.swift in Sources */,
 				28FDF72C279E1D6F00573C23 /* FinderSync.swift in Sources */,
-				28A558A627C6F7E40073C3DC /* URL+XATTR.swift in Sources */,
-				28A558A827C70C3B0073C3DC /* Color.swift in Sources */,
 				14F2977DEEB3326F0B636863 /* webptojpg.swift in Sources */,
 				B915ED334DBD00608233AD6E /* webptopng.swift in Sources */,
 				D0A03457AD9A9FF7485DA1AA /* heictowebp.swift in Sources */,
@@ -442,10 +434,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = iConvert;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "Allow access to change the colors of folders on your Desktop.";
-				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Allow access to change the colors of folders in your Documents folder.";
-				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Allow access to change the colors of folders in your Downloads folder.";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Judit Karamazov\nAll rights reserved.";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "Allow access to convert files on your Deskop";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Allow access to convert files in your Documents Folder";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Allow access to convert files in your Downloads Folder";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 UNTITLED APPS e.U.\nAll rights reserved.";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,10 +468,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = iConvert;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "Allow access to change the colors of folders on your Desktop.";
-				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Allow access to change the colors of folders in your Documents folder.";
-				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Allow access to change the colors of folders in your Downloads folder.";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Judit Karamazov\nAll rights reserved.";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "Allow access to convert files on your Deskop";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Allow access to convert files in your Documents Folder";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Allow access to convert files in your Downloads Folder";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 UNTITLED APPS e.U.\nAll rights reserved.";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDisplayName</key>
+	<string>iConvert</string>
+	<key>CFBundleName</key>
+	<string>iConvert</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -19,6 +23,7 @@
 					<string>public.png</string>
 					<string>public.jpeg</string>
 					<string>public.heic</string>
+					<string>com.apple.heic</string>
 					<string>org.webmproject.webp</string>
 				</array>
 			</dict>

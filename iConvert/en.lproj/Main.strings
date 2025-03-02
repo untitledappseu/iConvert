@@ -1,15 +1,14 @@
-
 /* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "1UK-8n-QPP"; */
 "1UK-8n-QPP.title" = "Customize Toolbar…";
 
-/* Class = "NSMenuItem"; title = "ChromatOS"; ObjectID = "1Xt-HY-uBw"; */
-"1Xt-HY-uBw.title" = "ChromatOS";
+/* Class = "NSMenuItem"; title = "iConvert"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "iConvert";
 
 /* Class = "NSMenu"; title = "Find"; ObjectID = "1b7-l0-nxx"; */
 "1b7-l0-nxx.title" = "Find";
 
-/* Class = "NSTextFieldCell"; title = "If ChromatOS is not appearing as part of your Finder Extensions, please go to Extensions > Added Extensions instead."; ObjectID = "2Fe-01-DK5"; */
-"2Fe-01-DK5.title" = "If ChromatOS is not appearing as part of your Finder Extensions, please go to Extensions > Added Extensions instead.";
+/* Class = "NSTextFieldCell"; title = "If iConvert is not appearing as part of your Finder Extensions, please go to Extensions > Added Extensions instead."; ObjectID = "2Fe-01-DK5"; */
+"2Fe-01-DK5.title" = "If iConvert is not appearing as part of your Finder Extensions, please go to Extensions > Added Extensions instead.";
 
 /* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "2oI-Rn-ZJC"; */
 "2oI-Rn-ZJC.title" = "Transformations";
@@ -26,14 +25,14 @@
 /* Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "4J7-dP-txa"; */
 "4J7-dP-txa.title" = "Enter Full Screen";
 
-/* Class = "NSMenuItem"; title = "Quit ChromatOS"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Quit ChromatOS";
+/* Class = "NSMenuItem"; title = "Quit iConvert"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit iConvert";
 
 /* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
 "5QF-Oa-p0T.title" = "Edit";
 
-/* Class = "NSMenuItem"; title = "About ChromatOS"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "About ChromatOS";
+/* Class = "NSMenuItem"; title = "About iConvert"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About iConvert";
 
 /* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
 "6dh-zS-Vam.title" = "Redo";
@@ -65,8 +64,8 @@
 /* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
 "F2S-fz-NVQ.title" = "Help";
 
-/* Class = "NSMenuItem"; title = "ChromatOS Help"; ObjectID = "FKE-Sm-Kum"; */
-"FKE-Sm-Kum.title" = "ChromatOS Help";
+/* Class = "NSMenuItem"; title = "iConvert Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "iConvert Help";
 
 /* Class = "NSMenu"; title = "Substitutions"; ObjectID = "FeM-D8-WVr"; */
 "FeM-D8-WVr.title" = "Substitutions";
@@ -86,8 +85,8 @@
 /* Class = "NSMenuItem"; title = "Open…"; ObjectID = "IAo-SY-fd9"; */
 "IAo-SY-fd9.title" = "Open…";
 
-/* Class = "NSWindow"; title = "Welcome to ChromatOS"; ObjectID = "IQv-IB-iLA"; */
-"IQv-IB-iLA.title" = "Welcome to ChromatOS";
+/* Class = "NSWindow"; title = "Welcome to iConvert"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Welcome to iConvert";
 
 /* Class = "NSMenuItem"; title = "Revert to Saved"; ObjectID = "KaW-ft-85H"; */
 "KaW-ft-85H.title" = "Revert to Saved";
@@ -104,8 +103,8 @@
 /* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
 "OY7-WF-poV.title" = "Minimize";
 
-/* Class = "NSMenuItem"; title = "Hide ChromatOS"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Hide ChromatOS";
+/* Class = "NSMenuItem"; title = "Hide iConvert"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide iConvert";
 
 /* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "OwM-mh-QMV"; */
 "OwM-mh-QMV.title" = "Find Previous";
@@ -146,8 +145,8 @@
 /* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "WeT-3V-zwk"; */
 "WeT-3V-zwk.title" = "Paste and Match Style";
 
-/* Class = "NSTextFieldCell"; title = "ChromatOS is a Finder extension aiming to make your device more colorful. To use ChromatOS, go to System Preferences > Extensions > Finder Extensions, and make sure the extension is enabled. If it indeed is, just right-click on the folders whose color you want to change by accessing the \"Color menu\"... and boom! Time to make your choice!"; ObjectID = "Wl9-0G-74J"; */
-"Wl9-0G-74J.title" = "ChromatOS is a Finder extension aiming to make your device more colorful. To use ChromatOS, go to System Preferences > Extensions > Finder Extensions, and make sure the extension is enabled. If it indeed is, just right-click on the folders whose color you want to change by accessing the \"Color menu\"... and boom! Time to make your choice!";
+/* Class = "NSTextFieldCell"; title = "iConvert is a Finder extension aiming to make your device more colorful. To use iConvert, go to System Preferences > Extensions > Finder Extensions, and make sure the extension is enabled. If it indeed is, just right-click on the folders whose color you want to change by accessing the Color menu."; ObjectID = "Wl9-0G-74J"; */
+"Wl9-0G-74J.title" = "iConvert is a Finder extension aiming to make your device more colorful. To use iConvert, go to System Preferences > Extensions > Finder Extensions, and make sure the extension is enabled. If it indeed is, just right-click on the folders whose color you want to change by accessing the Color menu.";
 
 /* Class = "NSMenuItem"; title = "Find…"; ObjectID = "Xz5-n4-O0W"; */
 "Xz5-n4-O0W.title" = "Find…";
@@ -188,8 +187,8 @@
 /* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
 "gVA-U4-sdL.title" = "Paste";
 
-/* Class = "NSTextFieldCell"; title = "Welcome to ChromatOS"; ObjectID = "hP1-z3-qcs"; */
-"hP1-z3-qcs.title" = "Welcome to ChromatOS";
+/* Class = "NSTextFieldCell"; title = "Welcome to iConvert"; ObjectID = "hP1-z3-qcs"; */
+"hP1-z3-qcs.title" = "Welcome to iConvert";
 
 /* Class = "NSMenuItem"; title = "Smart Quotes"; ObjectID = "hQb-2v-fYv"; */
 "hQb-2v-fYv.title" = "Smart Quotes";
@@ -236,8 +235,8 @@
 /* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "tXI-mr-wws"; */
 "tXI-mr-wws.title" = "Open Recent";
 
-/* Class = "NSMenu"; title = "ChromatOS"; ObjectID = "uQy-DD-JDr"; */
-"uQy-DD-JDr.title" = "ChromatOS";
+/* Class = "NSMenu"; title = "iConvert"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "iConvert";
 
 /* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
 "uRl-iY-unG.title" = "Cut";

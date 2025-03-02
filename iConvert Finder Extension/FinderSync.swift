@@ -80,6 +80,23 @@ class FinderSync: FIFinderSync {
         // Filter for HEIC files
         let heicFiles = selectedItems.filter { $0.pathExtension.lowercased() == "heic" }
 
+        // Also check UTI types for more robust HEIC detection
+        let heicUTIs = ["public.heic", "com.apple.heic"]
+        let heicFilesUTI = selectedItems.filter {
+            if let uti = try? $0.resourceValues(forKeys: [.typeIdentifierKey]).typeIdentifier {
+                let isHeicUTI = heicUTIs.contains(uti)
+                if isHeicUTI && !heicFiles.contains($0) {
+                    os_log("Found additional HEIC file by UTI: %{public}@, UTI: %{public}@", log: logger, type: .debug, $0.path, uti)
+                    return true
+                }
+            }
+            return false
+        }
+
+        // Combine both detection methods
+        let allHeicFiles = heicFiles + heicFilesUTI
+        os_log("Total HEIC files after UTI check: %d", log: logger, type: .debug, allHeicFiles.count)
+
         // Filter for WebP files
         let webpFiles = selectedItems.filter { $0.pathExtension.lowercased() == "webp" }
 
@@ -116,7 +133,7 @@ class FinderSync: FIFinderSync {
         }
 
         // Add HEIC conversion options
-        if !heicFiles.isEmpty {
+        if !allHeicFiles.isEmpty {
             let heicToJpgItem = NSMenuItem(title: "HEIC to JPG", action: #selector(convertHEICtoJPG), keyEquivalent: "")
             heicToJpgItem.target = self
             submenu.addItem(heicToJpgItem)
@@ -146,7 +163,7 @@ class FinderSync: FIFinderSync {
             return nil
         }
 
-        let convertItem = NSMenuItem(title: "Convert", action: nil, keyEquivalent: "")
+        let convertItem = NSMenuItem(title: "iConvert", action: nil, keyEquivalent: "")
         menu.addItem(convertItem)
         menu.setSubmenu(submenu, for: convertItem)
 
@@ -208,11 +225,21 @@ class FinderSync: FIFinderSync {
             return
         }
 
-        // Filter for HEIC files
+        // Filter for HEIC files using both extension and UTI
         let heicFiles = selectedItems.filter { $0.pathExtension.lowercased() == "heic" }
-        os_log("Converting %d HEIC files", log: logger, type: .info, heicFiles.count)
 
-        for fileURL in heicFiles {
+        let heicUTIs = ["public.heic", "com.apple.heic"]
+        let heicFilesUTI = selectedItems.filter {
+            if let uti = try? $0.resourceValues(forKeys: [.typeIdentifierKey]).typeIdentifier {
+                return heicUTIs.contains(uti) && !heicFiles.contains($0)
+            }
+            return false
+        }
+
+        let allHeicFiles = heicFiles + heicFilesUTI
+        os_log("Converting %d HEIC files", log: logger, type: .info, allHeicFiles.count)
+
+        for fileURL in allHeicFiles {
             let success = heicToJpgConverter.convert(fileURL)
             os_log("Conversion %{public}@", log: logger, type: .info, success ? "succeeded" : "failed")
         }
@@ -225,11 +252,21 @@ class FinderSync: FIFinderSync {
             return
         }
 
-        // Filter for HEIC files
+        // Filter for HEIC files using both extension and UTI
         let heicFiles = selectedItems.filter { $0.pathExtension.lowercased() == "heic" }
-        os_log("Converting %d HEIC files", log: logger, type: .info, heicFiles.count)
 
-        for fileURL in heicFiles {
+        let heicUTIs = ["public.heic", "com.apple.heic"]
+        let heicFilesUTI = selectedItems.filter {
+            if let uti = try? $0.resourceValues(forKeys: [.typeIdentifierKey]).typeIdentifier {
+                return heicUTIs.contains(uti) && !heicFiles.contains($0)
+            }
+            return false
+        }
+
+        let allHeicFiles = heicFiles + heicFilesUTI
+        os_log("Converting %d HEIC files", log: logger, type: .info, allHeicFiles.count)
+
+        for fileURL in allHeicFiles {
             let success = heicToPngConverter.convert(fileURL)
             os_log("Conversion %{public}@", log: logger, type: .info, success ? "succeeded" : "failed")
         }
@@ -324,11 +361,21 @@ class FinderSync: FIFinderSync {
             return
         }
 
-        // Filter for HEIC files
+        // Filter for HEIC files using both extension and UTI
         let heicFiles = selectedItems.filter { $0.pathExtension.lowercased() == "heic" }
-        os_log("Converting %d HEIC files", log: logger, type: .info, heicFiles.count)
 
-        for fileURL in heicFiles {
+        let heicUTIs = ["public.heic", "com.apple.heic"]
+        let heicFilesUTI = selectedItems.filter {
+            if let uti = try? $0.resourceValues(forKeys: [.typeIdentifierKey]).typeIdentifier {
+                return heicUTIs.contains(uti) && !heicFiles.contains($0)
+            }
+            return false
+        }
+
+        let allHeicFiles = heicFiles + heicFilesUTI
+        os_log("Converting %d HEIC files", log: logger, type: .info, allHeicFiles.count)
+
+        for fileURL in allHeicFiles {
             let success = heicToWebpConverter.convert(fileURL)
             os_log("Conversion %{public}@", log: logger, type: .info, success ? "succeeded" : "failed")
         }

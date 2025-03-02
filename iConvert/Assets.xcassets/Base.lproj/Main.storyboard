@@ -10,11 +10,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="ChromatOS" id="1Xt-HY-uBw">
+                            <menuItem title="iConvert" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="ChromatOS" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="iConvert" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About ChromatOS" id="5kV-Vb-QxS">
+                                        <menuItem title="About iConvert" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -28,7 +28,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide ChromatOS" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide iConvert" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -46,7 +46,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit ChromatOS" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit iConvert" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -397,7 +397,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="ChromatOS Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="iConvert Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -411,7 +411,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ChromatOS" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="iConvert" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -421,7 +421,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Welcome to ChromatOS" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA" customClass="MainWindow" customModule="ChromatOS" customModuleProvider="target">
+                    <window key="window" title="Welcome to iConvert" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA" customClass="MainWindow" customModule="iConvert" customModuleProvider="target">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" fullSizeContentView="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -441,12 +441,12 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="ChromatOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="iConvert" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="412" height="639"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bgs-hA-AjN" customClass="WindowMovingImageView" customModule="ChromatOS" customModuleProvider="target">
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ckk-yw-fiv" customClass="WindowMovingImageView" customModule="iConvert" customModuleProvider="target">
                                 <rect key="frame" x="142" y="483" width="128" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="73r-N0-GfJ"/>
@@ -456,7 +456,7 @@
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wvR-F1-BNL">
                                 <rect key="frame" x="88" y="453" width="237" height="30"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Welcome to ChromatOS" id="hP1-z3-qcs">
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Welcome to iConvert" id="hP1-z3-qcs">
                                     <font key="font" metaFont="systemBold" size="26"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -466,14 +466,14 @@
                                 <rect key="frame" x="18" y="333" width="376" height="96"/>
                                 <textFieldCell key="cell" id="Wl9-0G-74J">
                                     <font key="font" metaFont="system"/>
-                                    <string key="title">ChromatOS is a Finder extension. To use ChromatOS, first go to System Preferences &gt; Extensions &gt; Finder Extensions, and make sure the extension is enabled. After that, just right click on one or more folders whose color you want to change, go to the Color menu, and pick a color. ChromatOS will continue to work after you close this window.</string>
+                                    <string key="title">iConvert is a Finder extension. To use iConvert, first go to System Preferences &gt; Extensions &gt; Finder Extensions, and make sure the extension is enabled. After that, just right click on one or more folders whose color you want to change, go to the Color menu, and pick a color. iConvert will continue to work after you close this window.</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="g3l-Dj-Gp0">
                                 <rect key="frame" x="18" y="60" width="376" height="32"/>
-                                <textFieldCell key="cell" title="To remove ChromatOS from your computer, drag this app to the Trash, empty the Trash, then log out and log back in." id="2Fe-01-DK5">
+                                <textFieldCell key="cell" title="To remove iConvert from your computer, drag this app to the Trash, empty the Trash, then log out and log back in." id="2Fe-01-DK5">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -498,7 +498,7 @@
                                     <action selector="juditKaramazovClicked:" target="XfG-lQ-9wD" id="Eg2-WP-teC"/>
                                 </connections>
                             </button>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="zyE-nV-A3e" customClass="VideoContainerView" customModule="ChromatOS" customModuleProvider="target">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="zyE-nV-A3e" customClass="VideoContainerView" customModule="iConvert" customModuleProvider="target">
                                 <rect key="frame" x="20" y="108" width="372" height="209"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="372" id="BPG-5U-xmu"/>
@@ -509,7 +509,7 @@
                         <constraints>
                             <constraint firstItem="wvR-F1-BNL" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="1mb-Nd-Esn"/>
                             <constraint firstItem="g3l-Dj-Gp0" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="4hJ-c3-THJ"/>
-                            <constraint firstItem="Bgs-hA-AjN" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="Fz7-xC-Z1p"/>
+                            <constraint firstItem="Ckk-yw-fiv" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="Fz7-xC-Z1p"/>
                             <constraint firstItem="zyE-nV-A3e" firstAttribute="top" secondItem="2UO-Jn-WKz" secondAttribute="bottom" constant="16" id="Hdy-gy-lwG"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HAZ-LT-z2n" secondAttribute="trailing" constant="20" symbolic="YES" id="J9G-yo-9q9"/>
                             <constraint firstAttribute="trailing" secondItem="zyE-nV-A3e" secondAttribute="trailing" constant="20" symbolic="YES" id="KAJ-mp-cdY"/>
@@ -517,12 +517,12 @@
                             <constraint firstAttribute="trailing" secondItem="Gyd-Vm-D8Y" secondAttribute="trailing" constant="130" id="RgV-ps-4Ov"/>
                             <constraint firstItem="2UO-Jn-WKz" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="RtM-rM-J58"/>
                             <constraint firstAttribute="bottom" secondItem="Gyd-Vm-D8Y" secondAttribute="bottom" constant="20" id="VrF-yu-tSg"/>
-                            <constraint firstItem="Bgs-hA-AjN" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="28" id="WPk-b8-N1R"/>
+                            <constraint firstItem="Ckk-yw-fiv" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="28" id="WPk-b8-N1R"/>
                             <constraint firstItem="Gyd-Vm-D8Y" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="bsn-Tb-4gh"/>
                             <constraint firstItem="HAZ-LT-z2n" firstAttribute="top" secondItem="g3l-Dj-Gp0" secondAttribute="bottom" constant="24" id="cLi-oo-oYJ"/>
                             <constraint firstItem="g3l-Dj-Gp0" firstAttribute="top" secondItem="zyE-nV-A3e" secondAttribute="bottom" constant="16" id="d7A-9y-ePa"/>
                             <constraint firstAttribute="trailing" secondItem="g3l-Dj-Gp0" secondAttribute="trailing" constant="20" id="gW3-8I-uxj"/>
-                            <constraint firstItem="wvR-F1-BNL" firstAttribute="top" secondItem="Bgs-hA-AjN" secondAttribute="bottom" id="h30-VB-qMe"/>
+                            <constraint firstItem="wvR-F1-BNL" firstAttribute="top" secondItem="Ckk-yw-fiv" secondAttribute="bottom" id="h30-VB-qMe"/>
                             <constraint firstAttribute="trailing" secondItem="2UO-Jn-WKz" secondAttribute="trailing" constant="20" id="iCH-jV-cuy"/>
                             <constraint firstItem="2UO-Jn-WKz" firstAttribute="top" secondItem="wvR-F1-BNL" secondAttribute="bottom" constant="24" id="k6B-iI-xMy"/>
                             <constraint firstItem="HAZ-LT-z2n" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="129" id="nbU-oc-5VT"/>
