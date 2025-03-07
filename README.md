@@ -1,9 +1,5 @@
 # iConvert
 
-<p align="center">
-  <img src="icon_256x256@2x.png" width="256" height="256" alt="iConvert app icon">
-</p>
-
 <h1 align="center">
   Simple File Conversion for macOS
 </h1>
@@ -52,9 +48,7 @@ Currently, iConvert supports the following conversions:
 
 ## Feedback and Support
 
-We'd love to hear from you! Leave a review and let us know what other conversions you'd like to see.
-
-You can also reach us at contact@untitledapps.at.
+Just open an a new issue.
 
 ## Requirements
 
@@ -65,8 +59,3 @@ You can also reach us at contact@untitledapps.at.
 iConvert does not collect any personal data. All conversions happen locally on your device.
 
 ---
-
-<p align="center">
-  © 2023-2024 Untitled Apps
-</p>
-# iConvert
